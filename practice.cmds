@@ -1,0 +1,8 @@
+mkdir practice # to create a project directory
+cd practice # go into project directory
+git init # initialize git in project directory
+echo "#Practice " > README.md # create README.md file
+git status # Run git status to see which files are what state (pre-stage, stage, or committed)
+git remote add origin https://github.com/smucharla/practice.git
+git push -u origin main
+
